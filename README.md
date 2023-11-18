@@ -3,11 +3,11 @@
 Projeto de um gerenciador financeiro desenvolvido durante o curso da ADA - Vem Ser Tech. Projeto em construção.
 
 ## Desenvolvido por:
--[Adam Basilio](https://github.com/abasilio91)
--[Daniel]()
--[Gabriela]()
--[Lilian]()
--[Raphael]()
+- [Adam Basilio](https://github.com/abasilio91)
+- [Daniel]()
+- [Gabriela]()
+- [Lilian]()
+- [Raphael]()
 
 ## Contextualização
 Deverá ser desenvolvido um sistema para controle financeiro que receba as movimentações e as armazena em um arquivo csv ou json. O sistema deverá ser capaz de realizar as seguintes operações:
