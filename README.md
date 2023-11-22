@@ -5,7 +5,7 @@ Projeto de um gerenciador financeiro desenvolvido durante o curso da ADA - Vem S
 ## Desenvolvido por:
 - [Adam Basilio](https://github.com/abasilio91)
 - [Daniel Rodrigues](https://www.linkedin.com/in/danielrodrigues-ds/)
-- [Gabriela Rodruigues](https://www.linkedin.com/in/gabrielarodriguesdados/)
+- [Gabriela Rodrigues](https://www.linkedin.com/in/gabrielarodriguesdados/)
 - [Lilian]()
 - [Raphael]()
 
