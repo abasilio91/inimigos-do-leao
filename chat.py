@@ -10,7 +10,7 @@ from ler import *
 def chat_pagina1():
     opcao = int(input(CHAT_PAGINA1))
 
-    if opcao not in (1, 2, 3, 4, 0):
+    if opcao not in (1,2,3,4,0):
         print(ERRO_OPCAO_INVALIDA)
         chat_pagina1()
 
