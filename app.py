@@ -1,4 +1,4 @@
-from inimigos_do_leao.funcoes.chat import *
+from chat import *
 
 def main():
     chat_pagina1()

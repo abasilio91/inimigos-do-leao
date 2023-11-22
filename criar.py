@@ -2,7 +2,6 @@ import datetime
 
 from functools import reduce
 from atualizar import *
-from chat import *
 from constante_textos import *
 from ler import *
 

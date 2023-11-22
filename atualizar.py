@@ -1,7 +1,6 @@
 import json
 from chat import *
 from constante_textos import *
-from criar import *
 from ler import *
 
 def atualiza_entrada():
@@ -11,7 +10,7 @@ def atualiza_entrada():
     if entra_id not in historico:
         print(ERRO_ID_NAO_ENCONTRADO)
 
-    print(SAIDA_LER_MOVIMENTACAO, historico[entra_id])
+    print(SAIDA_LER_MOVIMENTACAO.format(historico[entra_id]))
 
     tipo_movimentacao = input(ENTRA_ATUALIZACAO_TIPO_MOVIMENTACAO)
     if tipo_movimentacao not in ("receita", "despesa", "investimento"):
@@ -44,5 +43,5 @@ def atualiza_entrada():
        print(ERRO_MOVIMENTACAO_VALOR)
     
 def atualiza_historico(historico):
-    with open('inimigos_do_leao/arquivos/historico.json','wt') as file:
-       json.dump(historico, file, indent=4, sort_keys=True)
+  with open('inimigos_do_leao/arquivos/historico.json','wt') as file:
+    json.dump(historico, file, indent=4, sort_keys=True)
