@@ -331,10 +331,3 @@ Programa encerrado pelo usuário
 Conte comigo na luta contra o Leão!
 ```
 </details>
-
-## Próximas etapas
-- [X] Registrar receitas, despesas e investimentos
-- [X] Ler, atualizar e deletar entradas
-- [X] Calcular valor previsto para investimentos
-- [X] Gerar relatório
-- [ ] GUI
