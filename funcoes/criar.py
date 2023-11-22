@@ -79,7 +79,7 @@ def novo_investimento():
 
 def novo_arquivo(title: str="historico"):
   try:
-    open(f'../arquivos/{title}.json','x')
+    open(f'inimigos_do_leao/arquivos/{title}.json','x')
     txt = CRIA_ARQUIVOS
 
   except:

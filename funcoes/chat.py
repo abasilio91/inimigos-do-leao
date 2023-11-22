@@ -1,9 +1,10 @@
 from atualizar import *
 from calcular import *
 from chat import *
-from criar import *
 from constante_textos import *
+from criar import *
 from deletar import *
+from ler import *
 
 def chat_pagina1():
     opcao = int(input(CHAT_PAGINA1))
@@ -116,11 +117,11 @@ def chama_soma_despesas():
   chat_pagina4()
 
 def chama_soma_investimentos():
-  soma, tempo = soma_investimentos(SAIDA_TOTAL_INVESTIMENTOS.format(tempo, soma:.2f))
+  soma, tempo = soma_investimentos(SAIDA_TOTAL_INVESTIMENTOS.format(tempo, soma))
   chat_pagina4()
 
 def chama_valores_futuros():
-  soma, tempo = valores_futuros(SAIDA_TOTAL_VALORES_FUTUROS.format(tempo, soma:.2f))
+  soma, tempo = valores_futuros(SAIDA_TOTAL_VALORES_FUTUROS.format(tempo, soma))
   print()
   chat_pagina4()
 

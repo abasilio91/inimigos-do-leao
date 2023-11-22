@@ -1,7 +1,7 @@
 import json
 from chat import *
-from criar import *
 from constante_textos import *
+from criar import *
 from ler import *
 
 def atualiza_entrada():
@@ -44,5 +44,5 @@ def atualiza_entrada():
        print(ERRO_MOVIMENTACAO_VALOR)
     
 def atualiza_historico(historico):
-    with open('../arquivos/historico.json','wt') as file:
+    with open('inimigos_do_leao/arquivos/historico.json','wt') as file:
        json.dump(historico, file, indent=4, sort_keys=True)

@@ -1,8 +1,7 @@
-import json
 from atualizar import *
 from criar import *
-from ler import *
 from constante_textos import *
+from ler import *
 
 def deleta_entrada():
   historico = get_historico()

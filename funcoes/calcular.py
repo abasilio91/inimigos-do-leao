@@ -1,3 +1,5 @@
+import datetime
+
 from atualizar import *
 from chat import *
 from criar import *
