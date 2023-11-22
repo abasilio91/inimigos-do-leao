@@ -16,7 +16,7 @@ ERRO_MOVIMENTACAO_VALOR = "Valor inválido."
 ERRO_CHAVE_NAO_EXISTE = "\nA chave informada não consta do seu histórico.\n"
 ERRO_CHAVE_DELETADA = "\nVocê já havia deletado esse registro.\n"
 ERRO_OPCAO_INVALIDA = "Opção inválida.\n\n"
-ERRO_CRIA_ARQUIVOS = "O arquivo de histórico já existe.\n\n"
+ERRO_CRIA_ARQUIVOS = "O arquivo de histórico já existe.\n Deseja sobrescrever o arquivo (sim ou não)?\n ATENÇÃO: Essa ação é IRREVERSÍVEL!\n"
 ERRO_MOVIMENTACAO_INVALIDA = "Tipo de movimentação inválido."
 
 SAIDA_LER_MOVIMENTACAO = "Informações atuais:"
