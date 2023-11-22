@@ -7,7 +7,7 @@ Projeto de um gerenciador financeiro desenvolvido durante o curso da ADA - Vem S
 - [Daniel Rodrigues](https://www.linkedin.com/in/danielrodrigues-ds/)
 - [Gabriela Rodrigues](https://www.linkedin.com/in/gabrielarodriguesdados/)
 - [Lilian]()
-- [Raphael]()
+- [Raphael Tsuchiya](https://github.com/raphaeltsuchiya)
 
 ## Contextualização
 Deverá ser desenvolvido um sistema para controle financeiro que receba as movimentações e as armazena em um arquivo csv ou json. O sistema deverá ser capaz de realizar as seguintes operações:
