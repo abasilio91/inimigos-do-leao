@@ -1,6 +1,6 @@
 # inimigos-do-leao
 
-Projeto de um gerenciador financeiro desenvolvido durante o curso da ADA - Vem Ser Tech. Projeto em construção.
+Projeto de um gerenciador financeiro desenvolvido durante o curso da ADA - Vem Ser Tech.
 
 ## Desenvolvido por:
 - [Adam Basilio](https://github.com/abasilio91)

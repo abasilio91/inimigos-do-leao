@@ -78,15 +78,19 @@ def novo_investimento():
 
 def novo_arquivo(title: str="historico"):
   try:
-    open(f'inimigos_do_leao/arquivos/{title}.json','x')
+    open(f'arquivos/{title}.json','x')
     print(CRIA_ARQUIVOS)
 
   except:
     opcao = input(ERRO_CRIA_ARQUIVOS)
     if opcao.lower() == 'sim':
       content = ""
-      with open("inimigos_do_leao/arquivos/historico.json", 'wt') as file:
+      with open("arquivos/historico.json", 'wt') as file:
         file.write(content)
 
+def novo_relatorio():
+  relatorio = get_relatorio()
+  with open("arquivos/relatorio.json", "wt") as file:
+    json.dump(relatorio, file, indent=4, sort_keys=True)
 
 

@@ -26,14 +26,5 @@
         "movimentacao": "receita",
         "status": "ativo",
         "valor": 1000.0
-    },
-    "202311228": {
-        "ano": 2023,
-        "data": "2023-11-22 17:56:54.013037",
-        "dia": 22,
-        "mes": 11,
-        "movimentacao": "receita",
-        "status": "deletado",
-        "valor": 2000.0
     }
 }

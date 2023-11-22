@@ -16,7 +16,7 @@ def get_investimentos():
   return historico_filtrado
 
 def get_historico():
-  with open('inimigos_do_leao/arquivos/historico.json','r') as file:
+  with open('arquivos/historico.json','r') as file:
     conteudo = file.read()
     if len(conteudo) == 0:
        historico = {}

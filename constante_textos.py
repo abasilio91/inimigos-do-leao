@@ -24,6 +24,7 @@ SAIDA_SUCESSO_MOVIMENTACAO = "Movimentação atualizada com sucesso."
 SAIDA_SUCESSO_DELETADO = "\nRegistro deletado com sucesso!\n"
 SAIDA_SUCESSO_TITULO_HISTORICO = "Histórico Completo:"
 SAIDA_RELATORIO_MOVIMENTACOES = "Segue abaixo o histórico de movimentações"
+SAIDA_CRIAR_ARQUIVO_RELATORIO = "Relatório criado com sucesso!\n O Relatório se encontra na paste inimigos_do_leao/arquivos/relatorio.json\n"
 SAIDA_TOTAL_RECEITAS = 'O seu total de receitas é R$ {:.2f}\n'
 SAIDA_TOTAL_DESPESAS = 'O seu total de despesas é R$ {:.2f}\n'
 SAIDA_TOTAL_INVESTIMENTOS = 'A soma dos valores investidos ao longo de {} dias é: R$ {:.2f}\n'
@@ -65,7 +66,7 @@ CHAT_PAGINA3 = """Digite o tipo de movimentação:
   Opção: """
 
 CHAT_PAGINA4 = """Digite o tipo de movimentação:
-  1: Mostrar histórico de movimentaçõces
+  1: Criar relatório de movimentaçõces
   2: Soma das receitas
   3: Soma das despesas
   4: Soma dos investimentos

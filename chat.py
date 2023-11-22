@@ -64,7 +64,7 @@ def chat_pagina4():
     chat_pagina4()
 
   acao = {
-      1: chama_get_relatorio,
+      1: chama_novo_relatorio,
       2: chama_soma_receitas,
       3: chama_soma_despesas,
       4: chama_soma_investimentos,
@@ -93,10 +93,6 @@ def chama_deleta_entrada():
   deleta_entrada()
   chat_pagina2()
 
-def chama_get_relatorio():
-  get_relatorio()
-  chat_pagina2()
-
 def chama_nova_receita():
   nova_receita()
   chat_pagina3()
@@ -109,10 +105,9 @@ def chama_novo_investimento():
   novo_investimento()
   chat_pagina3()
 
-def chama_get_relatorio():
-  relatorio = get_relatorio()
-  print(SAIDA_RELATORIO_MOVIMENTACOES)
-  print(json.dumps(relatorio, indent=4))
+def chama_novo_relatorio():
+  novo_relatorio()
+  print(SAIDA_CRIAR_ARQUIVO_RELATORIO)
   chat_pagina4()
 
 def chama_soma_receitas():
