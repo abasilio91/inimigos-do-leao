@@ -67,6 +67,6 @@ O que deseja fazer?
 ## Próximas etapas
 - [X] Registrar receitas, despesas e investimentos
 - [X] Ler, atualizar e deletar entradas
-- [ ] Calcular valor previsto para investimentos
-- [ ] Gerar relatório
+- [X] Calcular valor previsto para investimentos
+- [X] Gerar relatório
 - [ ] GUI
